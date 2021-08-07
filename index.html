@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./build/styles.css" />
+    <title>Frontend Mentor | Order summary card</title>
+  </head>
+  <body>
+    <div class="mx-auto my-[35px] lg:w-1/4 md:w-2/4 w-11/12 rounded-lg">
+      <div>
+        <img src="./images/illustration-hero.svg" alt="" class="rounded-t-lg" />
+        <div class="md:p-8 p-10 bg-white text-center rounded-b-lg">
+          <h3 class="text-2xl font-bold text-[color:var(--darkBlue)] mb-3">
+            Order Summary
+          </h3>
+          <p
+            class="
+              text-sm
+              text-[color:var(--desaturatedBlue)]
+              font-thin
+              leading-relaxed
+              tracking-wide
+            "
+          >
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+          <div
+            class="
+              rounded-lg
+              bg-[color:var(--verypaleBlue)]
+              flex
+              justify-between
+              items-center
+              p-4
+              my-5
+            "
+          >
+            <div class="flex justify-between items-center">
+              <img
+                src="./images/icon-music.svg"
+                alt=""
+                class="h-18 w-18 rounded-full mr-4"
+              />
+              <div class="clear-both">
+                <h6 class="text-xs font-semibold">Annual Plan</h6>
+                <p
+                  class="text-xs text-[color:var(--desaturatedBlue)] text-left"
+                >
+                  $59.99/year
+                </p>
+              </div>
+            </div>
+            <div
+              class="
+                text-[color:var(--brightBlue)]
+                underline
+                text-xs
+                font-semibold
+                hover:opacity-80
+              "
+            >
+              <a href="#">Change</a>
+            </div>
+          </div>
+          <button
+            type="submit"
+            class="
+              w-full
+              bg-[color:var(--brightBlue)]
+              rounded-xl
+              py-3
+              text-white
+              font-semibold
+              text-xs
+              mb-3
+              shadow-lg
+              hover:opacity-80
+            "
+          >
+            Proceed to Payment
+          </button>
+          <button
+            type="submit"
+            class="
+              w-full
+              rounded-xl
+              py-3
+              text-[color:var(--desaturatedBlue)]
+              font-semibold
+              text-xs
+              shadow-lg
+              hover:text-[color:var(--darkBlue)]
+            "
+          >
+            Cancel Order
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
